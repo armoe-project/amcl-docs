@@ -1,0 +1,8 @@
+node_modules
+.idea
+.vscode
+*.iml
+yarn-error*
+dist
+.temp
+.cache

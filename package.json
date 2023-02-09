@@ -1,0 +1,20 @@
+{
+  "name": "amcl-docs",
+  "version": "1.0.0",
+  "author": "ZhenXin",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "preview": "serve docs/.vuepress/dist"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.60",
+    "serve": "^14.2.0",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-theme-hope": "2.0.0-beta.172"
+  },
+  "description": "Armoe Minecraft Launcher Usage Documents",
+  "packageManager": "pnpm@7.26.3"
+}
