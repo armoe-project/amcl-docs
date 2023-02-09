@@ -26,8 +26,8 @@ pnpm dev # 启动开发服务器
 本项目使用 [GPL-3.0](LICENSE) 协议开放源代码
 
 ```text
-ZMusic Docs
-Copyright (C) 2023 RealHeart
+Armoe Minecraft Launcher Documents
+Copyright (C) 2023 Armoe Project Team
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -45,16 +45,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * [VuePress](https://github.com/vuepress/vuepress-next)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-## 贡献者
 
-[![][contrib]](https://github.com/RealHeart/ZMusic-Docs/graphs/contributors)
-
-[banner]: https://socialify.git.ci/RealHeart/ZMusic-Docs/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto
+[banner]: https://socialify.git.ci/armoe-project/amcl-docs/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto
 
 [node]: https://img.shields.io/badge/node-18-blue?style=for-the-badge
 
 [pnpm]: https://img.shields.io/badge/pnpm-7-blue?style=for-the-badge
 
-[license]: https://img.shields.io/github/license/RealHeart/ZMusic-Docs?style=for-the-badge
-
-[contrib]: https://contrib.rocks/image?repo=RealHeart/ZMusic-Docs
+[license]: https://img.shields.io/github/license/armoe-project/amcl-docs?style=for-the-badge
