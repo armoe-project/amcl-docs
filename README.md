@@ -15,8 +15,8 @@
 ## 开发
 
 ```shell
-git clone https://github.com/RealHeart/ZMusic-Docs
-cd gw-web
+git clone https://github.com/armoe-project/amcl-docs
+cd amcl-docs
 pnpm install # 安装依赖
 pnpm dev # 启动开发服务器
 ```
