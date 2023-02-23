@@ -16,7 +16,7 @@ const navbarZh = navbar([
 const navbarEn = navbar([
   { text: 'Home', link: '/en/', icon: 'home' },
   { text: 'Download', link: '/en/download', icon: 'download' },
-  { text: 'Install', link: '/install', icon: 'fa-brands fa-instalod' },
+  { text: 'Install', link: '/en/install', icon: 'fa-brands fa-instalod' },
   { text: 'Guide', link: '/en/guide', icon: 'lightbulb' },
   { text: 'FAQ', link: '/en/faq', icon: 'circle-question' },
   {
