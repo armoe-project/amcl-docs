@@ -10,7 +10,7 @@
 
 ## 反馈
 
-* 提交 [Issues](../../issues)
+- 提交 [Issues](../../issues)
 
 ## 开发
 
@@ -42,14 +42,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## 鸣谢
 
-* [VuePress](https://github.com/vuepress/vuepress-next)
-* [Visual Studio Code](https://code.visualstudio.com/)
-
+- [VuePress](https://github.com/vuepress/vuepress-next)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 [banner]: https://socialify.git.ci/armoe-project/amcl-docs/image?description=1&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto
-
 [node]: https://img.shields.io/badge/node-18-blue?style=for-the-badge
-
 [pnpm]: https://img.shields.io/badge/pnpm-7-blue?style=for-the-badge
-
 [license]: https://img.shields.io/github/license/armoe-project/amcl-docs?style=for-the-badge
