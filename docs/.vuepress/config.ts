@@ -1,9 +1,10 @@
 import { defineUserConfig } from 'vuepress'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import theme from './config/theme'
+import viteBundler from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
+  bundler: viteBundler(),
   port: 1421,
   head: [
     [
@@ -29,9 +30,6 @@ export default defineUserConfig({
   plugins: [
     googleAnalyticsPlugin({
       id: 'G-MWKT4QD2W0'
-    }),
-    searchProPlugin({
-      indexContent: true
     })
   ]
 })

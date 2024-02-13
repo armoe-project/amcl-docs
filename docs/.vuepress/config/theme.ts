@@ -17,5 +17,10 @@ export default hopeTheme({
       navbar: navbarEn,
       sidebar: sidebarEn
     }
+  },
+  plugins: {
+    searchPro: {
+      indexContent: true
+    }
   }
 })
