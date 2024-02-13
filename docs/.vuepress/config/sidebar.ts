@@ -10,19 +10,19 @@ const sidebarZh = sidebar({
     {
       text: '下载',
       icon: 'download',
-      link: 'download'
+      link: 'download.md'
     },
     {
       text: '安装',
       prefix: 'install',
-      link: 'install',
+      link: 'install/README.md',
       icon: 'fa-brands fa-instalod',
       children: childrens.install
     },
     {
       text: '指南',
       prefix: 'guide',
-      link: 'guide',
+      link: 'guide/README.md',
       icon: 'lightbulb',
       children: childrens.guide
     }
