@@ -1,5 +1,4 @@
 import { defineUserConfig } from 'vuepress'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import theme from './config/theme'
 import viteBundler from '@vuepress/bundler-vite'
 
@@ -14,6 +13,7 @@ export default defineUserConfig({
         content: 'width=device-width,initial-scale=1,user-scalable=no'
       }
     ],
+    ['script', { async: true, src: 'https://umami.zhenxin.me/script.js', 'data-website-id': 'a799e189-cf7e-4f5a-ac98-71de364f3637' }],
     ['script', { src: 'https://cdn.zhenxin.xyz/static/js/autoGray.js' }]
   ],
   locales: {
@@ -26,10 +26,5 @@ export default defineUserConfig({
       lang: 'en-US'
     }
   },
-  theme,
-  plugins: [
-    googleAnalyticsPlugin({
-      id: 'G-MWKT4QD2W0'
-    })
-  ]
+  theme
 })
