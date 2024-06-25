@@ -641,7 +641,6 @@ packages:
     resolution: {integrity: sha512-yPtF9jIix88orwfTi0lJiqINnlWo6p93MtZEoaehZnmCzEmLL0eqjA3eGVeyQhMtxdV+Mlsgfwhh0+M/k1/V7Q==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     optional: true
 
@@ -649,7 +648,6 @@ packages:
     resolution: {integrity: sha512-9GW9yA30ib+vfFiwjX+N7PnjTnCMiUffhWj4vkG4ukYv1kJ4T9gHNg8zw+ChsOccM27G9yXrEtMScf1LaCuoWQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     optional: true
 
@@ -657,7 +655,6 @@ packages:
     resolution: {integrity: sha512-X1ES+V4bMq2ws5fF4zHornxebNxMXye0ZZjUrzOrf7UMx1d6wMQtfcchZ8SqUnQPPHdOyOLW6fTcUiFgHFadRA==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     optional: true
 
@@ -665,7 +662,6 @@ packages:
     resolution: {integrity: sha512-w/5OpT2EnI/Xvypw4FIhV34jmNqU5PZjZue2l2Y3ty1Ootm3SqhI+AmfhlUYGBTd9JnpneZCDnt3uNOiOBkMyw==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
     requiresBuild: true
     optional: true
 
@@ -673,7 +669,6 @@ packages:
     resolution: {integrity: sha512-q/meftEe3QlwQiGYxD9rWwB21DoKQ9Q8wA40of/of6yGHhZuGfZO0c3WYkN9dNlopHlNT3mf5BPsUSxoPuVQaw==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
     requiresBuild: true
     optional: true
 
@@ -774,14 +769,14 @@ packages:
   /@types/web-bluetooth@0.0.20:
     resolution: {integrity: sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==}
 
-  /@vitejs/plugin-vue@5.0.4(vite@5.0.12)(vue@3.4.18):
+  /@vitejs/plugin-vue@5.0.4(vite@5.0.13)(vue@3.4.18):
     resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.0.12
+      vite: 5.0.13
       vue: 3.4.18
 
   /@vue/compiler-core@3.4.18:
@@ -854,7 +849,7 @@ packages:
   /@vuepress/bundler-vite@2.0.0-rc.7:
     resolution: {integrity: sha512-2jNnU3sgHJuUCPfE0DvGRsAxo/A/Locguvnv4Q6QwJYdB1fuAqE6x5p8RDzq8Lv/GsyeexDWiV/PFER5EtVP3w==}
     dependencies:
-      '@vitejs/plugin-vue': 5.0.4(vite@5.0.12)(vue@3.4.18)
+      '@vitejs/plugin-vue': 5.0.4(vite@5.0.13)(vue@3.4.18)
       '@vuepress/client': 2.0.0-rc.7
       '@vuepress/core': 2.0.0-rc.7
       '@vuepress/shared': 2.0.0-rc.7
@@ -864,7 +859,7 @@ packages:
       postcss: 8.4.35
       postcss-load-config: 5.0.3(postcss@8.4.35)
       rollup: 4.10.0
-      vite: 5.0.12
+      vite: 5.0.13
       vue: 3.4.18
       vue-router: 4.2.5(vue@3.4.18)
     transitivePeerDependencies:
@@ -2679,8 +2674,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite@5.0.12:
-    resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
+  /vite@5.0.13:
+    resolution: {integrity: sha512-/9ovhv2M2dGTuA+dY93B9trfyWMDRQw2jdVBhHNP6wr0oF34wG2i/N55801iZIpgUpnHDm4F/FabGQLyc+eOgg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
